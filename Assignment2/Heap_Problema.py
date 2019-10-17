@@ -57,6 +57,9 @@ class Node:
    def get_read(self):
       return self.read
    
+   def get_next(self):
+      return self.next
+   
    def set_x(self,x):
       self.x = x
       
